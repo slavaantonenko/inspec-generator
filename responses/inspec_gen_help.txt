@@ -1,0 +1,12 @@
+Usage:
+  inspec-gen [Option]
+
+Commands:
+  inspec-gen help       # Describe available commands and options.
+
+Options:
+  -d                    # Execute debug mode. default: false, e.g. -d true
+  -j                    # Use attributes as a json file, specify a full path. e.g -j '~/attributes.json'
+  -g                    # Use json attributes file only for specific platform. e.g -g 'windows'
+  -p                    # Execute only on specfic operating system. e.g. -p 'windows', 'ubuntu, 'amazon' etc.
+  -r                    # Execute different recipe then default. e.g. -r 'install'
